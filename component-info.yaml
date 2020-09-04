@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: myname
+  description: xxx
+  annotations: 
+    github.com/project-slug: frontdesk-development/mkurde-test1
+    backstage.io/github-actions-id: frontdesk-development/mkurde-test1
+spec:
+  type: service
+  lifecycle: experimental
+  owner: mkurde
